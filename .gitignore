@@ -1,0 +1,22 @@
+# secrets and local configuration
+.env
+.env.*
+
+# environments, caches, build output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# local backups of the starter file
+*.original
+*.before_replacement
